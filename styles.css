@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+#loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#content {
+    padding: 20px;
+    width: 50%;          
+    margin: 0 auto;      
+    box-sizing: border-box;
+    height: 100vh;       
+    overflow-y: auto;    
+}
+
+.person {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.person span {
+    margin: 0 10px;
+}
+
+img {
+    width: 100%;         
+    height: auto;        
+    display: block;      
+    margin: 20px 0;      
+}
+
+/* Neuer Stil für den Pfeil zum Zurückkehren */
+.backArrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid black;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Stil für die Artikel-Überschrift */
+.articleTitle {
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em;
+}
